@@ -1,8 +1,6 @@
-module.exports = async (content, outputPath) => {
-  if (!outputPath.endsWith(".min.js")) {
-    return content;
-  }
+const minify = require("terser").minify;
 
-  const minified = await require("terser").minify(content, {});
+module.exports = async (content, outputPath) => {
+  const minified = await minify(content, {});
   return minified.code;
 };
