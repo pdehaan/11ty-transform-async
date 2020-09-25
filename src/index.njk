@@ -1,0 +1,37 @@
+---
+title: Hey look, a site!
+---
+
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8"/>
+  <title>{{title}}</title>
+
+  <style>
+
+
+  a {
+        color:RED;
+      } body {
+        background-color: #0000Ff;
+      }
+      </style>
+      <script type="text/javascript">
+      document.body.onLoad(function()   {
+        console.log("laaaame")
+      })  </script>
+
+</head>
+<body>
+
+  <header>
+    <h1>{{ title }}</h1>
+  </header>
+  
+  
+<main>{{ content | safe }}</main>
+
+          <script src="/assets/js/site.min.js" type="text/javascript"></script>
+
+</body></html>

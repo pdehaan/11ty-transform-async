@@ -1,0 +1,28 @@
+{
+  "name": "11ty-transform-async",
+  "description": "",
+  "version": "1.0.0",
+  "author": "Peter deHaan <peter@deseloper.com> (https://about.me/peterdehaan)",
+  "bugs": {
+    "url": "https://github.com/pdehaan/11ty-transform-async/issues"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "@11ty/eleventy": "^0.11.0",
+    "html-minifier": "^4.0.0",
+    "prettier": "^2.1.2",
+    "terser": "^5.3.2"
+  },
+  "homepage": "https://github.com/pdehaan/11ty-transform-async#readme",
+  "keywords": [],
+  "license": "MPL-2.0",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pdehaan/11ty-transform-async.git"
+  },
+  "scripts": {
+    "build": "eleventy build",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}
